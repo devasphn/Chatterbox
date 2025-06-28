@@ -1,7 +1,7 @@
 
 python3 -m venv venv
 
-source venv/bin/active
+source venv/bin/activate
 
 apt-get update && apt-get install -y python3-pip git libsndfile1 ffmpeg
 
