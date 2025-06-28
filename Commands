@@ -14,3 +14,10 @@ pip install chatterbox-tts gradio numpy librosa scipy transformers huggingface-h
 pip install -r requirements.txt
 
 python main.py
+
+
+
+FOR OPTIMIZED: 
+
+export PYTORCH_CUDA_ALLOC_CONF="max_split_size_mb:512"
+export CUDA_LAUNCH_BLOCKING=0 
